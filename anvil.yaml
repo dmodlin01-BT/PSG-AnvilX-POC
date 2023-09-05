@@ -1,0 +1,20 @@
+correct_dependency_ids: {4WJSBYGUAK63RAJO: 4WJSBYGUAK63RAJO}
+dependencies:
+- app_id: 4WJSBYGUAK63RAJO
+  version: {version_tag: v1.0.0}
+services:
+- source: /runtime/services/anvil/tableau.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+startup: {type: form, module: Main}
+package_name: Tableau_Extension
+allow_embedding: true
+name: 'Clone of Cloneable: Chat Tutorial Starting Point'
+runtime_options: {version: 2, client_version: '3', server_version: python3-full, server_spec: null}
+metadata: {}
+startup_form: null
+native_deps: {head_html: ''}
+db_schema: {}

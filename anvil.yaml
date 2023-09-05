@@ -17,4 +17,9 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-full,
 metadata: {}
 startup_form: null
 native_deps: {head_html: ''}
-db_schema: {}
+db_schema:
+  table_1:
+    client: none
+    server: none
+    columns: []
+    title: Table 1
